@@ -123,6 +123,8 @@ body{
        
     }
     .order-button{
+        display: block;
+        border: none;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -148,6 +150,12 @@ body{
         background-color: #F4F4FD;
         }
 
+    .section-abaut{
+        padding: 120px 0;
+        width: calc((100% - 72px) / 4);
+        
+    }
+        
     .list{
         display: flex;
         gap: 24px;
