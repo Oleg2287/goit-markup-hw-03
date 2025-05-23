@@ -248,7 +248,7 @@ body{
     }
 
     .title-our-team{
-       font-weight: 500;
+        font-weight: 500;
         font-size: 20px;
         line-height: 120%;
         letter-spacing: 0.02em;
@@ -269,6 +269,7 @@ body{
     .section-portfolio{
         width: 1128px;
         height: 1000px;
+        padding: 120px 0 120px 0;
         margin: 120px 156px;
     }
 
