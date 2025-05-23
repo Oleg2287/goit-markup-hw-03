@@ -160,14 +160,19 @@ body{
     .list{
         display: flex;
         gap: 24px;
-       margin: 120px 156px;
+        margin: 120px 156px;
     } 
         
     .item{
-        background-color: #fff;
+        background-color: #fff;         
     }
 
-    .visually-hidden{
+    .item-our-team{
+        width: calc((100% - 72px) / 4);
+        padding-bottom: 8px;
+    }
+
+    .section-name{
         text-transform: capitalize;
         font-weight: 700;
         font-size: 36px;
@@ -175,6 +180,9 @@ body{
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+    }
+     
+    .visually-hidden {
         position: absolute;
         width: 1px;
         height: 1px;
@@ -193,6 +201,7 @@ body{
                 letter-spacing: 0.02em;
                 color: #2e2f42;
                 padding-bottom: 8px;
+               
         }
     
         .text { 
