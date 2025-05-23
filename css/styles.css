@@ -208,7 +208,7 @@ body{
         white-space: nowrap;
         border: 0;
         }
-        
+
     .section-our-team{
         width: 1158px;
         height: 732px;
@@ -217,7 +217,7 @@ body{
 
     .name-team{
         text-transform: capitalize;
-        padding-top: 120px;
+        padding: 120px 0;
         margin-bottom: 72px;
         font-weight: 700;
         font-size: 36px;
@@ -231,8 +231,9 @@ body{
     .list-our-team{
         display: flex;
         gap: 24px;
-        border-radius: 0 0 4px 4px;
-        padding: 0 0 32px 0;
+        /* padding: 120px 0; */
+        /* padding: 0 0 32px 0; */
+        
     }
     .item-our-team{
         
