@@ -6,6 +6,7 @@ body{
 
     ul, ol{
         list-style-type: none;
+        margin: 0;
         margin-top: 0;
         margin-bottom: 0;
         padding-left: 0;        
@@ -49,8 +50,9 @@ body{
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color:#4d5ae5;
-        margin-left: 156px;
-        margin-right: 76px;
+        gap: 40px;
+        /* margin-left: 156px;
+        margin-right: 76px; */
         padding: 24px 0
     }
     .header-logo .logo-part{
@@ -78,7 +80,7 @@ body{
     }
 
     .contacts{
-        
+        /* align-items: center; */
         font-style: normal;
         margin-left: auto;
     }
@@ -103,7 +105,7 @@ body{
         color: #404bbf;
     }
     .section-main{
-        width: 1440px;
+        width: 1158px;
         height: 600px;
         background-color: #2e2f42;
         padding-top: 188px;
@@ -139,22 +141,18 @@ body{
         padding: 16px 32px;
         min-width: 169px;
         height: 56px;
-
+        margin: 20px auto 0 auto;
     }
+
     .order-button:hover, .order-button:focus{
         background-color: #404bbf;
     }
     
     .section-abaut{
+        
         padding: 120px 0;
     }
-   
-    
-        
-    .item{
-        background-color: #fff;         
-    }
-     
+
     .visually-hidden {
         position: absolute;
         width: 1px;
@@ -188,13 +186,14 @@ body{
 
     .list{
         display: flex;
-        width: calc((100% - 72px) / 4);
         gap: 24px;
-        /* margin: 120px 156px; */
-        margin-bottom: 8px;
+        margin: 120px 156px;
+        
     } 
         
     .item{
+        width: calc((100% - 72px) / 4);
+        margin-bottom: 8px;
         background-color: #fff;         
     }
      
@@ -230,7 +229,7 @@ body{
 
 
     .section-our-team{
-        width: 1440px;
+        width: 1158px;
         height: 732px;
         background-color: #F4F4FD;
         }
@@ -251,12 +250,13 @@ body{
     .list-our-team{
         display: flex;
         gap: 24px;
-        width: calc((100% - 72px) / 4);
-        margin-bottom: 8px;
         border-radius: 0 0 4px 4px;
         padding: 0 0 32px 0;
     }
     .item-our-team{
+        
+        margin-bottom: 8px;
+        /* width: calc((100% - 72px) / 4); */
         background-color: #fff;
     }
 
@@ -332,7 +332,7 @@ body{
     }
     
     .footer{
-        width: 1440px;
+        width: 1158px;
         height: 312px;
         background-color: #2e2f42;
         padding: 100px 0;
