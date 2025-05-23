@@ -212,8 +212,6 @@ body{
         }
 
     .section-our-team{
-        width: 1158px;
-        height: 732px;
         background-color: #F4F4FD;
         padding: 120px 0;
         }
@@ -269,8 +267,6 @@ body{
     }
 
     .section-portfolio{
-        width: 1128px;
-        height: 1000px;
         padding: 120px 0 120px 0;
         margin: 120px 156px;
     }
