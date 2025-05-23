@@ -110,8 +110,6 @@ body{
         color: #404bbf;
     }
     .section-main{
-        width: 1158px;
-        height: 600px;
         background-color: #2e2f42;
         padding-top: 188px;
         padding-bottom: 188px;
@@ -278,10 +276,15 @@ body{
     }
 
     .section-name-portfolio{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
+        letter-spacing: 0.02em;
         text-align: center;
+        color: var(--navy-blue);
         margin-bottom: 72px;
     }
-    
+
     .list-portfolio{
         display: flex;
         flex-wrap: wrap;
