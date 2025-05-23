@@ -25,7 +25,7 @@ body{
     .page-header{
         border-bottom: 1px solid #e7e9fc;
         padding: 24px 0;
-        width: 1440px;
+        width: 1158px;
         margin: 0 auto;
     }
 
@@ -67,6 +67,7 @@ body{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding: 24px 0;
         /* display: flex; */
     }
    
@@ -165,7 +166,7 @@ body{
         background-color: #fff;
     }
 
-    .section-name{
+    .visually-hidden{
         text-transform: capitalize;
         font-weight: 700;
         font-size: 36px;
@@ -173,6 +174,15 @@ body{
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
         }
     
         .title {
