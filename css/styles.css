@@ -213,12 +213,12 @@ body{
         width: 1158px;
         height: 732px;
         background-color: #F4F4FD;
+        padding: 120px 0;
         }
 
     .name-team{
         text-transform: capitalize;
-        padding: 120px 0;
-        /* margin-bottom: 72px; */
+        margin-bottom: 72px;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
