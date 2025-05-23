@@ -23,10 +23,9 @@ body{
     img{
         display: block;
     }
-    .page-header{
+   
+     .page-header{
         border-bottom: 1px solid #e7e9fc;
-        padding: 24px 0;
-       
     }
 
     .container {
@@ -79,6 +78,13 @@ body{
         gap: 40px;
     }
 
+    .header-adress{
+        display: flex;
+        margin-left: auto;
+        align-items: center;
+        font-style: normal;
+    }
+
     .contacts{
         /* align-items: center; */
         font-style: normal;
@@ -89,13 +95,12 @@ body{
     .contacts-list{
         display: flex;
         gap: 40px;
-    }
+    }    
     
     .contacts-link{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        
     }
 
     .nav-link:hover,
