@@ -229,15 +229,10 @@ body{
     .list-our-team{
         display: flex;
         gap: 24px;
-        /* border-radius: 0px 0px 4px 4px; */
-        /* padding: 120px 0; */
-        /* padding: 0 0 32px 0; */
-        
     }
     .item-our-team{
         border-radius: 0px 0px 4px 4px;
         margin-bottom: 8px;
-        /* width: calc((100% - 72px) / 4); */
         background-color: #fff;
     }
 
@@ -283,7 +278,7 @@ body{
         display: flex;
         flex-wrap: wrap;
         gap: 24px;
-        
+        row-gap: 48px;
     }
 
     .title-portfolio{
@@ -328,7 +323,6 @@ body{
     }
 
     .footer-text{
-        /* padding: 100px 0; */
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
