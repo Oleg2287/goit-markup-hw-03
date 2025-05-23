@@ -116,11 +116,10 @@ body{
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
-        text-align: center;
         color: #fff;
         text-align: center;
-        margin-left: 472px;
-        margin-right: 472px;
+        /* margin-left: 472px;
+        margin-right: 472px; */
         max-width: 496px;
         margin: 0 auto;
        
@@ -282,7 +281,7 @@ body{
         display: flex;
         flex-wrap: wrap;
         gap: 24px;
-        row-gap: 48px;
+        
     }
 
     .title-portfolio{
@@ -329,11 +328,11 @@ body{
     }
 
     .footer-text{
-        padding: 100px 0;
+        /* padding: 100px 0; */
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        max-width: 264px;
     }
-    
