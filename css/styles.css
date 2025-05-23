@@ -189,8 +189,6 @@ body{
     .list{
         display: flex;
         gap: 24px;
-        margin: 120px 156px;
-        
     } 
         
     .item{
