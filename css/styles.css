@@ -29,7 +29,7 @@ body{
     }
 
     .container {
-        width: 1440px;
+        width: 1158px;
         padding: 0 15px;
         margin: 0 auto;
     }
@@ -147,32 +147,26 @@ body{
     
     .section-abaut{
         padding: 120px 0;
-        width: calc((100% - 72px) / 4);
-
     }
    
-      
-    .list{
-        display: flex;
-        gap: 24px;
-        margin: 120px 156px;
-    } 
+    
         
     .item{
         background-color: #fff;         
     }
      
-    .visually-hidden{
+    .visually-hidden {
         position: absolute;
         width: 1px;
         height: 1px;
-        padding: 0;
         margin: -1px;
-        overflow: hidden;
-        clip: rect(0, 0, 0, 0);
-        white-space: nowrap;
         border: 0;
-        }
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
     
     .title{
         font-weight: 500;
@@ -194,8 +188,10 @@ body{
 
     .list{
         display: flex;
+        width: calc((100% - 72px) / 4);
         gap: 24px;
-        margin: 120px 156px;
+        /* margin: 120px 156px; */
+        margin-bottom: 8px;
     } 
         
     .item{
