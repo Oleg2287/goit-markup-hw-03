@@ -191,7 +191,6 @@ body{
         
     .item{
         width: calc((100% - 72px) / 4);
-        margin-bottom: 8px;
         background-color: #fff;         
     }
      
